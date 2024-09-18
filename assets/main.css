@@ -1,0 +1,90 @@
+/*headers and paragraph styling*/
+#header1 {
+  background-color: brown;
+  color: white;
+  padding: 2px;
+
+}
+
+#links {
+  float: right;
+  padding-top: 20px;
+}
+
+.li1 {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+form {
+  padding-left: 35%;
+  padding-top: 40px;
+  float: right;
+}
+
+.skip {
+  display: inline-block;
+  padding-left: 15px;
+  position: absolute;
+  top: auto;
+  width: 5px;
+  height: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pima {
+  max-width: 300px;
+  height: 300px;
+
+}
+
+/*monochromatic background*/
+body {
+  background-image: url("../images/1ea7023e5273df7ac1d0beb970e3f14e.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.about {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+  width: 200px;
+  height: 120px;
+  margin-right: 1em;
+}
+
+/*footer styling*/
+#footer {
+  background-color: brown;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.center {
+  text-align: center;
+}
